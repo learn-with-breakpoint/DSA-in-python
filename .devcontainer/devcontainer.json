@@ -12,7 +12,7 @@
 	// "forwardPorts": [],
 
 	// Use 'postCreateCommand' to run commands after the container is created.
-	// "postCreateCommand": "pip3 install --user -r requirements.txt",
+	"postCreateCommand": "pip install -r requirements.txt",
 
 	// Configure tool-specific properties.
 	"customizations": {
@@ -27,6 +27,7 @@
 			"terminal.integrated.fontSize": 14,
 			"workbench.iconTheme": "material-icon-theme",
 			"workbench.colorTheme": "GitHub Dark",
+			"notebook.output.scrolling": true,
 			// to do tree settings
 			"todo-tree.highlights.defaultHighlight": {
 				"icon": "alert",
@@ -106,7 +107,9 @@
 			"gruntfuggly.todo-tree",
 			"pkief.material-icon-theme",
 			"streetsidesoftware.code-spell-checker",
-			"github.github-vscode-theme"
+			"github.github-vscode-theme",
+			"davidanson.vscode-markdownlint",
+			"yzhang.markdown-all-in-one"
 		]
 	}
 }
